@@ -1,9 +1,11 @@
+package com.example.demo;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * spring-boot-alipay
- * wiki:https://open.alipay.com/platform/home.htm
+ * github:https://github.com/FasterXML/jackson-datatype-json-org
  */
 @SpringBootApplication
 public class Application {

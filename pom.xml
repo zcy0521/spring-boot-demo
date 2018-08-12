@@ -33,7 +33,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <!-- https://search.maven.org -->
+        <!-- https://search.maven.org/classic/ -->
+        <commons-lang3.version>3.7</commons-lang3.version>
         <mysql.version>8.0.12</mysql.version>
         <druid.version>1.1.10</druid.version>
         <javax-inject.version>1</javax-inject.version>
@@ -41,6 +42,11 @@
         <mybatis.version>1.3.2</mybatis.version>
         <mybatis-mapper.version>2.0.3</mybatis-mapper.version>
         <mybatis-pagehelper.version>1.2.5</mybatis-pagehelper.version>
+        <jackson.version>2.9.0</jackson.version>
+        <json.version>20180130</json.version>
+        <fastjson.version>1.2.49</fastjson.version>
+        <alipay.version>3.3.4.ALL</alipay.version>
+        <wxpay.version>0.0.3</wxpay.version>
     </properties>
 
     <!-- 声明子模块 -->
@@ -60,6 +66,7 @@
         <module>spring-boot-bean-dozer</module>
         <module>spring-boot-bean-mapstruct</module>
         <module>spring-boot-json-jackson</module>
+        <module>spring-boot-json-fastjson</module>
         <module>spring-boot-dubbo-consumer</module>
         <module>spring-boot-dubbo-provider</module>
         <module>spring-boot-mq-rabbitmq</module>
@@ -68,7 +75,7 @@
         <module>spring-boot-document-itext</module>
         <module>spring-boot-document-xcelite</module>
         <module>spring-boot-pay-alipay</module>
-        <module>spring-boot-pay-weixin</module>
+        <module>spring-boot-pay-wxpay</module>
         <module>spring-boot-tutorial</module>
     </modules>
 
@@ -98,6 +105,13 @@
             <groupId>javax.inject</groupId>
             <artifactId>javax.inject</artifactId>
             <version>${javax-inject.version}</version>
+        </dependency>
+
+        <!-- apache-commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
         </dependency>
 
         <!-- lombok -->
@@ -142,6 +156,40 @@
                 <groupId>com.github.pagehelper</groupId>
                 <artifactId>pagehelper-spring-boot-starter</artifactId>
                 <version>${mybatis-pagehelper.version}</version>
+            </dependency>
+
+            <!-- jackson -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-json-org</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <!-- json -->
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${json.version}</version>
+            </dependency>
+
+            <!-- fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- alipay -->
+            <dependency>
+                <groupId>com.alipay.sdk</groupId>
+                <artifactId>alipay-sdk-java</artifactId>
+                <version>${alipay.version}</version>
+            </dependency>
+
+            <!-- wxpay -->
+            <dependency>
+                <groupId>com.github.wxpay</groupId>
+                <artifactId>wxpay-sdk</artifactId>
+                <version>${wxpay.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

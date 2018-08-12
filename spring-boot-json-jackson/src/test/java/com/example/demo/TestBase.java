@@ -1,4 +1,6 @@
 package com.example.demo;
 
-public class TestBase {
+import junit.framework.TestCase;
+
+public class TestBase extends TestCase {
 }

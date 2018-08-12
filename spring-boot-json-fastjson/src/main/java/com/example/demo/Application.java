@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * spring-boot-alipay
- * wiki:https://github.com/FasterXML/jackson-datatype-json-org
+ * github:https://github.com/alibaba/fastjson
  */
 @SpringBootApplication
 public class Application {
