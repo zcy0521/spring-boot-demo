@@ -42,11 +42,12 @@ public class AlipayController {
             params.put(name, valueStr);
         }
 
+        // 打印请求参数
         ObjectMapper mapper = new ObjectMapper();
         String json = mapper.writeValueAsString(params);
         log.info("alipay notify params:{}", json);
 
-        // 通知验证结果
+        // 计算通知验证结果
         boolean verifyResult = AlipaySignature.rsaCheckV1(params, "ALIPAY_PUBLIC_KEY", "UTF-8", "RSA2");
 
         if (verifyResult){
