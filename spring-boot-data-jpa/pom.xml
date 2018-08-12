@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+        http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- =========================================================
+         项目继承
+         https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Project_Inheritance
+
+         parent：指定parent pom groupId + artifactId + version
+         groupId和version：省略，和parent相同
+         ========================================================= -->
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-boot-data-jpa</artifactId>
+    <packaging>jar</packaging>
+
+    <parent>
+        <groupId>com.example</groupId>
+        <artifactId>spring-boot-demo</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+</project>
