@@ -54,6 +54,8 @@
         <!-- module值：从demo到spring-boot-xxx的相对路径 -->
         <module>spring-boot-database-connector-mysql</module>
         <module>spring-boot-database-connection-pools-druid</module>
+        <module>spring-boot-logging-logback</module>
+        <module>spring-boot-logging-log4j2</module>
         <module>spring-boot-data-jpa</module>
         <module>spring-boot-data-mybatis</module>
         <module>spring-boot-data-redis</module>
