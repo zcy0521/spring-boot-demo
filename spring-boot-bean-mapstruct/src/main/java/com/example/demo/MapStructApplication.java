@@ -5,13 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * spring-boot: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
- * jdbc: http://www.oracle.com/technetwork/java/javase/jdbc/index.html
+ * mapstruct: https://github.com/mapstruct/mapstruct
  */
 @SpringBootApplication
-public class MySQLApplication {
+public class MapStructApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MySQLApplication.class, args);
+        SpringApplication.run(MapStructApplication.class, args);
     }
 
 }
