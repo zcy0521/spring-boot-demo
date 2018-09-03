@@ -4,9 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * doc: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
+ * spring-boot: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
+ * logging-log4j2: https://github.com/apache/logging-log4j2
+ * aliyun-sls: https://github.com/aliyun/aliyun-log-log4j2-appender
  */
-@SpringBootApplication // same as @Configuration @EnableAutoConfiguration @ComponentScan
+@SpringBootApplication
 public class Log4j2Application {
 
     public static void main(String[] args) {
