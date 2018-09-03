@@ -4,9 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * doc: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
+ * spring-boot: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
+ * logback: https://github.com/qos-ch/logback
+ * aliyun-sls: https://github.com/aliyun/aliyun-log-logback-appender
  */
-@SpringBootApplication // same as @Configuration @EnableAutoConfiguration @ComponentScan
+@SpringBootApplication
 public class LogbackApplication {
 
     public static void main(String[] args) {

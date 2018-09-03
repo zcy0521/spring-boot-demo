@@ -45,6 +45,9 @@
         <jackson.version>2.9.0</jackson.version>
         <json.version>20180130</json.version>
         <fastjson.version>1.2.49</fastjson.version>
+        <protobuf-java.version>2.5.0</protobuf-java.version>
+        <aliyun-log-logback-appender.version>0.1.12</aliyun-log-logback-appender.version>
+        <aliyun-log-log4j2-appender.version.version>0.1.10</aliyun-log-log4j2-appender.version.version>
         <alipay.version>3.3.4.ALL</alipay.version>
         <wxpay.version>0.0.3</wxpay.version>
     </properties>
@@ -178,6 +181,25 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
                 <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- aliyun-sls -->
+            <dependency>
+                <groupId>com.google.protobuf</groupId>
+                <artifactId>protobuf-java</artifactId>
+                <version>${protobuf-java.version}</version>
+            </dependency>
+            <!-- aliyun-sls-logback -->
+            <dependency>
+                <groupId>com.aliyun.openservices</groupId>
+                <artifactId>aliyun-log-logback-appender</artifactId>
+                <version>${aliyun-log-logback-appender.version}</version>
+            </dependency>
+            <!-- aliyun-sls-log4j -->
+            <dependency>
+                <groupId>com.aliyun.openservices</groupId>
+                <artifactId>aliyun-log-log4j2-appender</artifactId>
+                <version>${aliyun-log-log4j2-appender.version}</version>
             </dependency>
 
             <!-- alipay -->
