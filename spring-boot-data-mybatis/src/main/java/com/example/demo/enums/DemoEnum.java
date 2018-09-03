@@ -14,22 +14,22 @@ public enum DemoEnum {
     /**
      * 枚举UNKNOWN
      */
-    ENUM_UNKNOWN(10, "未知"),
+    ENUM_UNKNOWN(0, "未知"),
 
     /**
      * 枚举A
      */
-    ENUM_A(11, "枚举A"),
+    ENUM_A(1, "枚举A"),
 
     /**
      * 枚举B
      */
-    ENUM_B(12, "枚举B"),
+    ENUM_B(2, "枚举B"),
 
     /**
      * 枚举value值
      */
-    ENUM_C(13, "枚举C", true);
+    ENUM_C(3, "枚举C", true);
 
     DemoEnum(int value, String description) {
         this.value = value;

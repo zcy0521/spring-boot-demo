@@ -5,13 +5,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * spring-boot: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
- * jdbc: http://www.oracle.com/technetwork/java/javase/jdbc/index.html
+ * spring-data-mongodb: https://github.com/spring-projects/spring-data-mongodb
  */
 @SpringBootApplication
-public class MySQLApplication {
+public class MongoDBApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MySQLApplication.class, args);
+        SpringApplication.run(MongoDBApplication.class, args);
     }
 
 }
