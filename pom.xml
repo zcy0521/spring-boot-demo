@@ -35,7 +35,7 @@
         <java.version>1.8</java.version>
         <!-- https://search.maven.org/classic/ -->
         <commons-lang3.version>3.7</commons-lang3.version>
-        <mysql.version>8.0.12</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <druid.version>1.1.10</druid.version>
         <javax-inject.version>1</javax-inject.version>
         <lombok.version>1.18.2</lombok.version>
