@@ -43,7 +43,7 @@
         <mybatis-mapper.version>2.0.3</mybatis-mapper.version>
         <mybatis-pagehelper.version>1.2.5</mybatis-pagehelper.version>
         <jackson.version>2.9.0</jackson.version>
-        <json.version>20180130</json.version>
+        <json.version>20230227</json.version>
         <fastjson.version>1.2.49</fastjson.version>
         <protobuf-java.version>2.5.0</protobuf-java.version>
         <aliyun-log-logback-appender.version>0.1.12</aliyun-log-logback-appender.version>
